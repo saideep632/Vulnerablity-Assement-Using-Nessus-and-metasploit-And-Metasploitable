@@ -8,7 +8,7 @@
 ---
 
 ## 🔍 Target Overview
-- **IP Address Assessed**: 192.168.240.129  
+- **IP Address Assessed**: 192.168.xxxx.xxxx 
 - **Tools Used**:  
   - **Nmap** – For service discovery, OS fingerprinting, and open port scanning.  
   - **Nessus** – For detecting known vulnerabilities, CVEs, and configuration issues.
@@ -24,7 +24,7 @@ The primary objective of this assessment was to identify vulnerabilities in a ta
 
 ### 🔧 Nmap Command Executed:
 ```bash
-nmap -sV -O -Pn 192.168.240.129
+nmap -sV -O -Pn 192.168.xxxx.xxx
 ```
 - `-sV`: Service and version detection  
 - `-O`: OS detection  
